@@ -29,7 +29,8 @@ export default function HomePage() {
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-      <div className =" xl:max-w-[1280px] w-full">
+      <div className="flex justify-center items-center sm:px-16 px-6 ">
+      <div className =" xl:max-w-[1280px] w-full  ">
       <div className=' bg-gradient-to-r from-g1 to-g2'>
         <NavBar />
         <Header />
@@ -41,6 +42,7 @@ export default function HomePage() {
       <CTA />
       <Blog />
       <Footer />
+      </div>
       </div>
     </Layout>
   );
