@@ -34,7 +34,7 @@ export default function HomePage() {
                <div className=' bg-gradient-to-r from-g1 to-g2'>
                     <NavBar />
                     <Header />
-           </div>
+               </div>
            <Brand />
            <WhatGPT3 />
            <MainFeatures />
