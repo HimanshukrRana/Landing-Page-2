@@ -29,7 +29,7 @@ export default function HomePage() {
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-      <div className="flex justify-center items-center  px-6 ">
+      <div className="flex justify-center items-center  ">
            <div className =" xl:max-w-[1400px] w-full  ">
                <div className=' bg-gradient-to-r from-g1 to-g2'>
                     <NavBar />
