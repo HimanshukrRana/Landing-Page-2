@@ -23,7 +23,7 @@ const featuresData = [
 
 const Features = () => (
   <div
-    className='gpt3__features flex flex-col justify-between p-[4rem] md:p-[6rem] lg:flex-row'
+    className='gpt3__features flex flex-col justify-between p-[3rem] md:p-[6rem] lg:flex-row'
     id='features'
   >
     <div className='gpt3__features-heading flex flex-1 flex-col text-center md:mr-[5rem] md:items-start md:justify-start md:text-left lg:w-[40%]'>
